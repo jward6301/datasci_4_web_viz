@@ -1,0 +1,12 @@
+{
+    "https://api.shinyapps.io": {
+        "server_url": "https://api.shinyapps.io",
+        "filename": "/home/jward6301/datasci_4_web_viz/shiny_python",
+        "app_url": "https://k8a2hc-jward6301.shinyapps.io/your-app-name/",
+        "app_id": 10001098,
+        "app_guid": null,
+        "title": "your-app-name",
+        "app_mode": "python-shiny",
+        "app_store_version": 1
+    }
+}
