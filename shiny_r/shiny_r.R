@@ -47,7 +47,7 @@ server <- function(input, output, session) {
       geom_bar(data = county_data, aes(x = LocationName, y = Data_Value, fill = LocationName), stat = "identity") +
       geom_hline(aes(yintercept = avg_value), linetype = "dashed", color = "dodgerblue") +
       labs(title = 'Depression Crude Prevalence',
-           y = 'Data Value (Age-adjusted prevalence) - Percent',
+           y = 'Data Value (Crude prevalence) - Percent',
            x = 'Location (County)') +
       theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
       ylim(0, 30) +
